@@ -1,0 +1,3 @@
+import { Users, Network, Globe, Cpu, Server, RadioTower, Cog, Layers, RefreshCw, Database, Zap, HardDriveDownload, Copy, Boxes, Rss, Hash, Inbox, Download, Link2, Shield, Compass, ShieldAlert, Repeat, HeartPulse, Skull, UserCheck, ListChecks, MessagesSquare, Box, type LucideIcon } from 'lucide-react';
+const M: Record<string, LucideIcon> = { Users, Network, Globe, Cpu, Server, RadioTower, Cog, Layers, RefreshCw, Database, Zap, HardDriveDownload, Copy, Boxes, Rss, Hash, Inbox, Download, Link2, Shield, Compass, ShieldAlert, Repeat, HeartPulse, Skull, UserCheck, ListChecks, MessagesSquare };
+export const icon = (n: string): LucideIcon => M[n] ?? Box;
